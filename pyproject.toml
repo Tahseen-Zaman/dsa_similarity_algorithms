@@ -18,3 +18,8 @@ packages = ["record_link"]
 
 [tool.ruff]
 line-length = 100
+
+[dependency-groups]
+dev = [
+    "pytest-benchmark>=5.2.1",
+]
