@@ -184,15 +184,6 @@ Encode a word into a consonant-like skeleton that approximates English pronuncia
 
 ## **4. Running Instructions**
 
-### **Installation**
-
-```bash
-git clone https://github.com/yourusername/recordlink.git
-cd recordlink
-pip install -e .
-pytest -q  # run tests
-```
-
 ### **Usage**
 
 ```python
@@ -213,7 +204,7 @@ print("Combined score:", scorer.score(a, b))
 ## CLI Tool:
 
 ```
-uv run python -m recordlink "José López" "Jose Lopez"
+uv run python -m record_link "José López" "Jose Lopez"
 ```
 ---
 
